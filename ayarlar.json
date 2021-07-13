@@ -4,8 +4,8 @@
     "OKUMADANGECME3" : "BOT BAZEN HATA ÇIKARDIĞI İÇİN HOŞ GELDİN EMOJİLERİ KALDIRILMIŞTIR.",
 
     "sahip" : "ID'niz",
-    "prefix" : "Prefixiniz",
-    "footer" : "Adınız ❤️ Sunucu isminiz",
+    "prefix" : ".",
+    "footer" : "Libry ❤️ Pars",
 
     "tag" : "Tagınız",
     "sembol" : "Kayıt ederken isim ve yaşın arasına koyulacak sembol (yoksa boş bırakın)",
@@ -18,6 +18,8 @@
     "erkekRol2" : "YOKSA BOŞ BIRAK",
     "kadınRol1" : "KADIN ROL ID",
     "kadınRol2" : "YOKSA BOŞ BIRAK",
+    "botdurum" : "Libry 💖 Pars",
+    
 
     "tagRol" : "TAG ROL ID",
 
