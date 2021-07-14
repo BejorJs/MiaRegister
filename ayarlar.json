@@ -12,21 +12,21 @@
   
     "yetkiliRol" : ["864469453563887647", "2. YOKSA BOŞ BIRAK", "3. YOKSA BOŞ BIRAK"],
     "vipRol" : "864492184118755358",
-    "boosterRol" : "BOOSTER ROL ID",
-    "kayıtsızRol" : "KAYITSIZ ROL ID",
-    "erkekRol1" : "ERKEK ROL ID",
+    "boosterRol" : "863318613749399583",
+    "kayıtsızRol" : "864469449372336149",
+    "erkekRol1" : "864469455366651914",
     "erkekRol2" : "YOKSA BOŞ BIRAK",
-    "kadınRol1" : "KADIN ROL ID",
+    "kadınRol1" : "864469472500121601",
     "kadınRol2" : "YOKSA BOŞ BIRAK",
-    "botdurum" : "Libry 💖 Pars",
+    "botdurum" : "Bejor ❤ Mia",
     
 
-    "tagRol" : "TAG ROL ID",
+    "tagRol" : "864492051218825257",
 
-    "hosgeldinKanal" : "HOS GELDİN KANAL ID",
-    "sohbetKanal" : "SOHBET KANALI ID", 
+    "hosgeldinKanal" : "864492850616074291",
+    "sohbetKanal" : "864483612610265088", 
     "botSesKanal" : "BOT SES KANALI ID",
   
-    "yes" : "ONAY EMOJİSİ ID",
-    "no" : "RED EMOJİSİ ID"
+    "yes" : "863708112142073867",
+    "no" : "863708079144173579"
 }
