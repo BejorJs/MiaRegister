@@ -68,11 +68,11 @@ client.on("guildMemberAdd", member => {
 member.roles.add(ayarlar.kayıtsızRol)
 member.roles.add(ayarlar.kayıtsızRol)
 member.roles.add(ayarlar.kayıtsızRol)//Youtube Matthe
-  
+member.setNickname(`${ayarlar.tag} İsim ${ayarlar.sembol} Yaş`)  
     kanal.send(`
-Sunucumuza hoş geldin, <@`+ member + `>! Sayende sunucumuz **`+üyesayısı+`** kişi. 
+Sunucumuza hoş geldin, <@`+ member + `>! Seninle birlikte  **`+üyesayısı+`** kişi olduk. 🎉🎉🎉
     
-Sunucumuza kayıt olmak için soldaki ses kanallarından birine girmelisin!
+Solda bulunan teyit odalarına geçerek teyit 
 
 Ayrıca hesabın 15 günden fazla bir süredir Discord'da bulunmalı.
 
