@@ -69,8 +69,7 @@ member.roles.add(ayarlar.kayıtsızRol)
 member.roles.add(ayarlar.kayıtsızRol)
 member.roles.add(ayarlar.kayıtsızRol)//Youtube Matthe
 member.setNickname(`${ayarlar.tag} İsim ${ayarlar.sembol} Yaş`)  
-    kanal.send(`
-Sunucumuza hoş geldin, <@`+ member + `>! - <@&864469453563887647>
+    kanal.send(`Sunucumuza hoş geldin, <@`+ member + `>! 
 
 Seninle birlikte  **`+üyesayısı+`** kişi olduk. 🎉🎉🎉
     
