@@ -78,7 +78,7 @@ Ayrıca hesabın 15 günden fazla bir süredir Discord'da bulunmalı.
 
 `+kontrol+`
     
-Ceza işlemlerin <#KURALLAR KANALI ID> kanalını okuduğun varsayılarak uygulanır. ( <@&HOS GELDİN MESAJ YETKİLİ ROL ID> )`)});
+Ceza işlemlerin <#864574883145318411> kanalını okuduğun varsayılarak uygulanır. ( <@&864469453563887647> )`)});
 
 client.login(process.env.TOKEN)
 
@@ -90,11 +90,11 @@ client.on("ready", () => {
 
 // tag rol kodu bana ait değildir, geliştirip sizlere sundum.
 client.on("userUpdate", async function(oldUser, newUser) { 
-    const guildID = "847733452643368990"// sunucu ıd
-    const roleID = "847741789019963394"// taglı rolünüzün ıd
-    const tag = "Force"// tagınız
-    const chat = '847743477516075009'// chat kanalı ıd
-    const taglog = '847744584075444226' // log kanalı ıd
+    const guildID = "863264596449689601"// sunucu ıd
+    const roleID = "864492051218825257"// taglı rolünüzün ıd
+    const tag = "☧"// tagınız
+    const chat = '864483612610265088'// chat kanalı ıd
+    const taglog = '864493008544464906' // log kanalı ıd
   
     const guild = client.guilds.cache.get(guildID)
     const role = guild.roles.cache.find(roleInfo => roleInfo.id === roleID)
@@ -111,10 +111,10 @@ client.on("userUpdate", async function(oldUser, newUser) {
         }
     }
    if (newUser.discriminator !== oldUser.discriminator) {
-        if (oldUser.discriminator == "1110" && newUser.discriminator !== "1110") {
+        if (oldUser.discriminator == "7942" && newUser.discriminator !== "7942") {
             member.roles.remove(roleID)
             client.channels.cache.get(taglog).send(embed.setDescription(`${newUser} Kullanıcısı etiket tagımızı çıkardığı için taglı rolü alındı!`))
-        } else if (oldUser.discriminator !== "1110" && newUser.discriminator == "1110") {
+        } else if (oldUser.discriminator !== "7942" && newUser.discriminator == "7942") {
             member.roles.add(roleID)-
             client.channels.cache.get(taglog).send(embed.setDescription(`${newUser} Kullanıcısı etiket tagımızı aldığı için taglı rolü verildi!`))
             client.channels.cache.get(chat).send(`**Mükemmel! ${newUser} Etiket tagımızı alarak ailemize katıldı!**`)

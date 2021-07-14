@@ -3,15 +3,15 @@
     "OKUMADANGECME2" : "TOKEN .env kısmında TOKEN yazan yerin karşısına tokeninizi yapıstırınız.",
     "OKUMADANGECME3" : "BOT BAZEN HATA ÇIKARDIĞI İÇİN HOŞ GELDİN EMOJİLERİ KALDIRILMIŞTIR.",
 
-    "sahip" : "ID'niz",
+    "sahip" : "850770804694319144",
     "prefix" : ".",
-    "footer" : "Libry ❤️ Pars",
+    "footer" : "Bejor ❤️ Mia",
 
-    "tag" : "Tagınız",
-    "sembol" : "Kayıt ederken isim ve yaşın arasına koyulacak sembol (yoksa boş bırakın)",
+    "tag" : "☧",
+    "sembol" : "|",
   
-    "yetkiliRol" : ["YETKİLİ ROLÜ ID", "2. YOKSA BOŞ BIRAK", "3. YOKSA BOŞ BIRAK"],
-    "vipRol" : "VIP ROL ID",
+    "yetkiliRol" : ["864469453563887647", "2. YOKSA BOŞ BIRAK", "3. YOKSA BOŞ BIRAK"],
+    "vipRol" : "864492184118755358",
     "boosterRol" : "BOOSTER ROL ID",
     "kayıtsızRol" : "KAYITSIZ ROL ID",
     "erkekRol1" : "ERKEK ROL ID",
