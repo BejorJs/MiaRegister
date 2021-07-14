@@ -61,8 +61,8 @@ client.on("guildMemberAdd", member => {
       const kurulus = new Date().getTime() - user.createdAt.getTime();  
      const gecen = moment.duration(kurulus).format(` YY **[Yıl]** DD **[Gün]** HH **[Saat]** mm **[Dakika,]**`) 
     var kontrol;
-  if (kurulus < 1296000000) kontrol = `Ve senin hesabın sunucumuza kayıt olmak için daha çok genç! :x: `
-  if (kurulus > 1296000000) kontrol = `Ve senin hesabın sunucumuza kayıt olmak için tüm şartları karşılıyor! :ballot_box_with_check: `
+  if (kurulus < 1296000000) kontrol = `Şüpheli!  <a:onay_1:863708112142073867> `
+  if (kurulus > 1296000000) kontrol = `Güvenilir!  <a:redd_1:863708079144173579> `
     moment.locale("tr");
   
 member.roles.add(ayarlar.kayıtsızRol)
@@ -74,9 +74,8 @@ Sunucumuza hoş geldin, <@`+ member + `>! Seninle birlikte  **`+üyesayısı+`**
     
 Solda bulunan teyit odalarına geçerek teyit vererek kayıt olabilirsin.
 
-Ayrıca hesabın 15 günden fazla bir süredir Discord'da bulunmalı.
+Hesabın \``+gecen+`\` süresinde kurulduğu için `+kontrol+`
 
-`+kontrol+`
     
 Ceza işlemlerin <#864574883145318411> kanalını okuduğun varsayılarak uygulanır. ( <@&864469453563887647> )`)});
 
