@@ -69,18 +69,16 @@ member.roles.add(ayarlar.kayıtsızRol)
 member.roles.add(ayarlar.kayıtsızRol)
 member.roles.add(ayarlar.kayıtsızRol)//Youtube Matthe
 member.setNickname(`${ayarlar.tag} İsim ${ayarlar.sembol} Yaş`)  
-    kanal.send(`Sunucumuza hoş geldin, <@`+ member + `>! 
-
-Seninle birlikte  **`+üyesayısı+`** kişi olduk. 🎉🎉🎉
+    kanal.send(`
+Sunucumuza hoş geldin, <@`+ member + `>! Seninle birlikte  **`+üyesayısı+`** kişi olduk. 🎉🎉🎉
     
-Solda bulunan ses kanalarına geçerek teyit verebilir, kayıt olabilirsin.
+Solda bulunan teyit odalarına geçerek teyit 
 
-Hesabın \``+gecen+`\` süresinde kurulduğu için `+kontrol+` \n
+Ayrıca hesabın 15 günden fazla bir süredir Discord'da bulunmalı.
 
-Ceza işlemlerin <#864574883145318411> kanalını okuduğun varsayılarak uygulanır.
-
-Tagımızı almak istersen; `.tag`. İyi eğlenceler.🎉  🎉  🎉  
-`)});
+`+kontrol+`
+    
+Ceza işlemlerin <#864574883145318411> kanalını okuduğun varsayılarak uygulanır. ( <@&864469453563887647> )`)});
 
 client.login(process.env.TOKEN)
 
