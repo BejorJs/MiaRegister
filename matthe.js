@@ -72,7 +72,7 @@ member.setNickname(`${ayarlar.tag} İsim ${ayarlar.sembol} Yaş`)
     kanal.send(`
 Sunucumuza hoş geldin, <@`+ member + `>! Seninle birlikte  **`+üyesayısı+`** kişi olduk. 🎉🎉🎉
     
-Solda bulunan teyit odalarına geçerek teyit 
+Solda bulunan teyit odalarına geçerek teyit vererek kayıt olabilirsin.
 
 Ayrıca hesabın 15 günden fazla bir süredir Discord'da bulunmalı.
 
