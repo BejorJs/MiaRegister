@@ -61,8 +61,8 @@ client.on("guildMemberAdd", member => {
       const kurulus = new Date().getTime() - user.createdAt.getTime();  
      const gecen = moment.duration(kurulus).format(` YY **[Yıl]** DD **[Gün]** HH **[Saat]** mm **[Dakika,]**`) 
     var kontrol;
-  if (kurulus < 1296000000) kontrol = `Şüpheli!  <a:onay_1:863708112142073867> `
-  if (kurulus > 1296000000) kontrol = `Güvenilir!  <a:redd_1:863708079144173579> `
+  if (kurulus < 1296000000) kontrol = `Şüpheli!  <a:redd_1:863708079144173579> `
+  if (kurulus > 1296000000) kontrol = `Güvenilir!  <a:onay_1:863708112142073867> `
     moment.locale("tr");
   
 member.roles.add(ayarlar.kayıtsızRol)
