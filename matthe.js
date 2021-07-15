@@ -81,9 +81,10 @@ Ceza işlemlerin <#864574883145318411> kanalını okuduğun varsayılarak uygula
 
 client.login(process.env.TOKEN)
 
-client.on("ready", () => {
-  client.channels.cache.get(ayarlar.botSes).join();
-  });
+client.on('ready', ()=>{
+client.channels.get('864496359033667594').join()
+})
+
 //Youtube Matthe
 //----------------------------------------------------- TAG ROL ------------------------------------------------\\
 
