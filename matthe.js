@@ -27,7 +27,7 @@ fs.readdir('./commands/', (err, files) => {
 client.on('message', async message => {
   
   if(message.content === '.tag') {
-    message.channel.send(`\`${ayarlar.tag}\``)//Youtube Matthe
+    message.channel.send(`\`${ayarlar.tagNe}\``)//Youtube Matthe
   }
   })
 
@@ -82,7 +82,7 @@ Ceza işlemlerin <#864574883145318411> kanalını okuduğun varsayılarak uygula
 client.login(process.env.TOKEN)
 
 client.on("ready", () => {
-  client.channels.cache.get(ayarlar.botSesKanal).join();
+  client.channels.cache.get(ayarlar.botSes).join();
   });
 //Youtube Matthe
 //----------------------------------------------------- TAG ROL ------------------------------------------------\\
